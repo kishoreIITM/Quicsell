@@ -1,0 +1,100 @@
+body ,html, .body{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    background-color: rgb(228, 225, 228);
+    align-items: center;
+    justify-content: center;
+    
+}
+.loader {
+
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 80%;
+    width: 10px;
+    height: 10px;
+    animation: spin 2s linear infinite;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.sending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.input {
+    border: 2px solid #B24242;
+    border-left: 0px;
+    height: 52px !important;
+    width: 60px;
+    padding: 0px;
+    overflow: hidden;
+}
+input{
+    
+    background-color: #FBE8E8;
+    border: 0px solid #B24242;
+    padding: 0;
+    height: 56px;
+    font-size: 30px;
+    color: #B24242;
+    text-align: center;
+    width: 100%;
+
+}
+
+.sub button{
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    padding: 3px;
+    color: #B24242;
+    border-color: #B24242;
+    border-radius: 8px 0px 0px 8px;
+    
+}
+.add button{
+    border-right: 0px;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #B24242;
+    padding: 3px;
+    border-color: #B24242;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0;
+}
+
+.add,.sub{
+    height: 56px;
+    font-size: 30px;
+    width: 60px;
+    
+}
+form{
+    display: flex;
+}
+button:hover{
+    cursor: pointer;
+}
+
